@@ -1,0 +1,12 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/scraper",
+    "${workspaceFolder}/scraper/sources"
+  ],
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}/scraper",
+    "${workspaceFolder}/scraper/sources"
+  ],
+  "python.envFile": "${workspaceFolder}/.env.local"
+}

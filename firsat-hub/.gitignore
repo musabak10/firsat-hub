@@ -1,0 +1,24 @@
+# Dependencies
+node_modules
+.venv
+venv
+
+# Next.js & Build
+.next
+out
+tsconfig.tsbuildinfo
+
+# Environment variables
+.env*.local
+.env
+!.env.example
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+.pytest_cache
+
+# OS & Editor
+.DS_Store
+Thumbs.db
